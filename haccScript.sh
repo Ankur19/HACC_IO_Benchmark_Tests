@@ -8,6 +8,8 @@ echo "Which version?"
 echo "[ 1: Local, 2: Volumes, 3: BindMounts ]"
 read version
 
+oldPwd=$PWD
+
 if [ $version -eq 1 ]
 then
 	resultPath=$PWD/localResults
@@ -43,6 +45,9 @@ do
 	done
 	
 	cd results
-	rm *
+	if [ "$PWD" = "$oldPwd"/results ];
+	then
+		rm *
+	fi
 	cd ..
 done
