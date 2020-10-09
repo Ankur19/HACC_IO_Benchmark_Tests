@@ -42,12 +42,13 @@ do
 	for j in "${rank[@]}"
 	do
 		mpirun -n "$j" ./hacc_io "$x" results/mpitest >> "$resultPath"/result.txt
+
+		cd results
+		if [ "$PWD" = "$oldPwd"/results ];
+		then
+			rm *
+		fi
+		cd ..
 	done
 	
-	cd results
-	if [ "$PWD" = "$oldPwd"/results ];
-	then
-		rm *
-	fi
-	cd ..
 done
