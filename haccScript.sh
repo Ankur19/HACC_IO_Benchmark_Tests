@@ -33,22 +33,29 @@ arr=( 10 25 50 100 250 500 1000 )
 
 rank=( 1 2 3 4 )
 
-for i in "${arr[@]}"
-do
-	x=$((100000*i))
-	
-	#mpicc -O -DSTREAM_ARRAY_SIZE="$x" stream_mpi.c -o stream."$i"M
-	
-	for j in "${rank[@]}"
-	do
-		mpirun -n "$j" ./hacc_io "$x" results/mpitest >> "$resultPath"/result.txt
+folders=( 1 2 3 4 5 )
 
-		cd results
-		if [ "$PWD" = "$oldPwd"/results ];
-		then
-			rm *
-		fi
-		cd ..
+for fold in "${folders[@]}"
+do
+	for i in "${arr[@]}"
+	do
+		x=$((100000*i))
+		
+		#mpicc -O -DSTREAM_ARRAY_SIZE="$x" stream_mpi.c -o stream."$i"M
+		
+		for j in "${rank[@]}"
+		do
+			mkdir "$resultPath"/"$fold"
+
+			mpirun -n "$j" ./hacc_io "$x" results/mpitest >> "$resultPath"/"$fold"/result.txt
+
+			cd results
+			if [ "$PWD" = "$oldPwd"/results ];
+			then
+				rm *
+			fi
+			cd ..
+		done
+		
 	done
-	
 done
