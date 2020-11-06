@@ -29,7 +29,7 @@ fi
 
 make CXX=mpicc LDLIBS="-lstdc++"
 
-arr=( 10 25 50 100 250 500 1000 )
+arr=( 10 25 50 100 250 500 )
 
 rank=( 1 2 3 4 )
 

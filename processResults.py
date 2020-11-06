@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 columns = ["Bandwidth", "Size", "MaxTime", "ReadWrite", "NumParticles", "NumProcesses"]
-numParticles = [10, 25, 50, 100, 250, 500, 1000]
+numParticles = [10, 25, 50, 100, 250, 500]
 numProcesses = [1, 2, 3, 4]
 folders = ["1","2","3","4","5"]
 
@@ -17,6 +17,8 @@ def processTxt(file):
 	pIdx = 0
 	partIdx = 0
 	for line in file:
+		if partIdx>=6:
+			break
 		if "READ" in line:
 			text = line.split(" ")
 			bandwidth.append(text[4])
@@ -57,6 +59,7 @@ def processResults():
 			with open(dir+"/" + fold + "/result.txt", 'r') as file:
 				df = processTxt(file)
 				allDfs.append(df)
+		print(dir  + "done")
 		df = pd.concat(allDfs).groupby(level=0).mean()
 		df.to_csv(dir+".csv")
 
