@@ -1,0 +1,592 @@
+asaikia-predator-ph315-52
+    description: Notebook
+    product: Predator PH315-52 (0000000000000000)
+    vendor: Acer
+    version: V1.12
+    serial: NHQ5MAA001924089D92600
+    width: 64 bits
+    capabilities: smbios-3.0.1 dmi-3.0.1 smp vsyscall32
+    configuration: chassis=notebook family=Predator Helios 300 sku=0000000000000000 uuid=BB9121B9-7609-3949-965D-E97A60E41D92
+  *-core
+       description: Motherboard
+       product: Covini_CFS
+       vendor: CFL
+       physical id: 0
+       version: V1.12
+       serial: NBQ5M11004922012792600
+       slot: Type2 - Board Chassis Location
+     *-firmware
+          description: BIOS
+          vendor: Insyde Corp.
+          physical id: 0
+          version: V1.12
+          date: 07/28/2020
+          size: 128KiB
+          capacity: 15MiB
+          capabilities: pci upgrade shadowing cdboot bootselect edd int13floppynec int13floppytoshiba int13floppy360 int13floppy1200 int13floppy720 int13floppy2880 int9keyboard int10video acpi usb biosbootspecification uefi
+     *-cpu
+          description: CPU
+          product: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+          vendor: Intel Corp.
+          physical id: 4
+          bus info: cpu@0
+          version: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+          serial: To Be Filled By O.E.M.
+          slot: U3E1
+          size: 4198MHz
+          capacity: 4500MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: lm fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d cpufreq
+          configuration: cores=6 enabledcores=6 threads=12
+        *-cache:0
+             description: L1 cache
+             physical id: 5
+             slot: L1 Cache
+             size: 384KiB
+             capacity: 384KiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=1
+        *-cache:1
+             description: L2 cache
+             physical id: 6
+             slot: L2 Cache
+             size: 1536KiB
+             capacity: 1536KiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=2
+        *-cache:2
+             description: L3 cache
+             physical id: 7
+             slot: L3 Cache
+             size: 12MiB
+             capacity: 12MiB
+             capabilities: synchronous internal write-back unified
+             configuration: level=3
+     *-memory
+          description: System Memory
+          physical id: d
+          slot: System board or motherboard
+          size: 16GiB
+        *-bank:0
+             description: SODIMM DDR4 Synchronous 2667 MHz (0.4 ns)
+             product: ACR26D4S9S8ME-8
+             vendor: Kingston
+             physical id: 0
+             serial: E2358816
+             slot: ChannelA-DIMM0
+             size: 8GiB
+             width: 64 bits
+             clock: 2667MHz (0.4ns)
+        *-bank:1
+             description: SODIMM DDR4 Synchronous 2667 MHz (0.4 ns)
+             product: ACR26D4S9S8ME-8
+             vendor: Kingston
+             physical id: 1
+             serial: DD357517
+             slot: ChannelB-DIMM0
+             size: 8GiB
+             width: 64 bits
+             clock: 2667MHz (0.4ns)
+     *-pci
+          description: Host bridge
+          product: 8th Gen Core Processor Host Bridge/DRAM Registers
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 07
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=skl_uncore
+          resources: irq:0
+        *-pci:0
+             description: PCI bridge
+             product: Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 07
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm msi pciexpress normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:122 ioport:4000(size=4096) memory:a0000000-b40fffff ioport:b4100000(size=1048576)
+           *-display
+                description: VGA compatible controller
+                product: TU116M [GeForce GTX 1660 Ti Mobile]
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+                configuration: driver=nvidia latency=0
+                resources: irq:179 memory:b3000000-b3ffffff memory:a0000000-afffffff memory:b0000000-b1ffffff ioport:4000(size=128) memory:b2000000-b207ffff
+           *-multimedia
+                description: Audio device
+                product: TU116 High Definition Audio Controller
+                vendor: NVIDIA Corporation
+                physical id: 0.1
+                bus info: pci@0000:01:00.1
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:17 memory:b4000000-b4003fff
+           *-usb
+                description: USB controller
+                product: TU116 USB 3.1 Host Controller
+                vendor: NVIDIA Corporation
+                physical id: 0.2
+                bus info: pci@0000:01:00.2
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: msi pciexpress pm xhci cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:127 memory:b4100000-b413ffff memory:b4140000-b414ffff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 5.4.0-54-generic xhci-hcd
+                   physical id: 0
+                   bus info: usb@3
+                   logical name: usb3
+                   version: 5.04
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 5.4.0-54-generic xhci-hcd
+                   physical id: 1
+                   bus info: usb@4
+                   logical name: usb4
+                   version: 5.04
+                   capabilities: usb-3.10
+                   configuration: driver=hub slots=4 speed=10000Mbit/s
+           *-serial
+                description: Serial bus controller
+                product: TU116 [GeForce GTX 1650 SUPER]
+                vendor: NVIDIA Corporation
+                physical id: 0.3
+                bus info: pci@0000:01:00.3
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: msi pciexpress pm bus_master cap_list
+                configuration: driver=nvidia-gpu latency=0
+                resources: irq:128 memory:b4004000-b4004fff
+        *-display
+             description: VGA compatible controller
+             product: UHD Graphics 630 (Mobile)
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pciexpress msi pm vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:133 memory:b5000000-b5ffffff memory:90000000-9fffffff ioport:5000(size=64) memory:c0000-dffff
+        *-generic:0
+             description: Signal processing controller
+             product: Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+             vendor: Intel Corporation
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 07
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm bus_master cap_list
+             configuration: driver=proc_thermal latency=0
+             resources: irq:16 memory:b4610000-b4617fff
+        *-generic:1 UNCLAIMED
+             description: System peripheral
+             product: Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+             vendor: Intel Corporation
+             physical id: 8
+             bus info: pci@0000:00:08.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm bus_master cap_list
+             configuration: latency=0
+             resources: memory:b4624000-b4624fff
+        *-generic:2
+             description: Signal processing controller
+             product: Cannon Lake PCH Thermal Controller
+             vendor: Intel Corporation
+             physical id: 12
+             bus info: pci@0000:00:12.0
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=intel_pch_thermal latency=0
+             resources: irq:16 memory:b4625000-b4625fff
+        *-usb
+             description: USB controller
+             product: Cannon Lake PCH USB 3.1 xHCI Host Controller
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: irq:126 memory:b4600000-b460ffff
+           *-usbhost:0
+                product: xHCI Host Controller
+                vendor: Linux 5.4.0-54-generic xhci-hcd
+                physical id: 0
+                bus info: usb@1
+                logical name: usb1
+                version: 5.04
+                capabilities: usb-2.00
+                configuration: driver=hub slots=16 speed=480Mbit/s
+              *-usb:0
+                   description: USB hub
+                   product: USB 2.0 Hub
+                   vendor: Terminus Technology Inc.
+                   physical id: 3
+                   bus info: usb@1:3
+                   version: 1.11
+                   capabilities: usb-2.00
+                   configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                 *-usb
+                      description: USB hub
+                      product: USB2.0 HUB
+                      physical id: 3
+                      bus info: usb@1:3.3
+                      version: 1.00
+                      capabilities: usb-2.00
+                      configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                    *-usb:0
+                         description: Mouse
+                         product: USB Optical Mouse
+                         vendor: Logitech
+                         physical id: 2
+                         bus info: usb@1:3.3.2
+                         version: 72.00
+                         capabilities: usb-2.00
+                         configuration: driver=usbhid maxpower=100mA speed=2Mbit/s
+                    *-usb:1
+                         description: Keyboard
+                         product: USB Keyboard
+                         vendor: Logitech
+                         physical id: 3
+                         bus info: usb@1:3.3.3
+                         version: 49.00
+                         capabilities: usb-1.10
+                         configuration: driver=usbhid maxpower=90mA speed=2Mbit/s
+              *-usb:1
+                   description: Video
+                   product: HD User Facing
+                   vendor: Chicony Electronics Co.,Ltd.
+                   physical id: 7
+                   bus info: usb@1:7
+                   version: 96.49
+                   serial: 0001
+                   capabilities: usb-2.01
+                   configuration: driver=uvcvideo maxpower=500mA speed=480Mbit/s
+              *-usb:2
+                   description: Bluetooth wireless interface
+                   vendor: Intel Corp.
+                   physical id: e
+                   bus info: usb@1:e
+                   version: 0.02
+                   capabilities: bluetooth usb-2.00
+                   configuration: driver=btusb maxpower=100mA speed=12Mbit/s
+           *-usbhost:1
+                product: xHCI Host Controller
+                vendor: Linux 5.4.0-54-generic xhci-hcd
+                physical id: 1
+                bus info: usb@2
+                logical name: usb2
+                version: 5.04
+                capabilities: usb-3.10
+                configuration: driver=hub slots=8 speed=10000Mbit/s
+        *-memory UNCLAIMED
+             description: RAM memory
+             product: Cannon Lake PCH Shared SRAM
+             vendor: Intel Corporation
+             physical id: 14.2
+             bus info: pci@0000:00:14.2
+             version: 10
+             width: 64 bits
+             clock: 33MHz (30.3ns)
+             capabilities: pm bus_master cap_list
+             configuration: latency=0
+             resources: memory:b4620000-b4621fff memory:b4626000-b4626fff
+        *-network
+             description: Wireless interface
+             product: Wireless-AC 9560 [Jefferson Peak]
+             vendor: Intel Corporation
+             physical id: 14.3
+             bus info: pci@0000:00:14.3
+             logical name: wlp0s20f3
+             version: 10
+             serial: a4:c3:f0:48:8b:ae
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress msix bus_master cap_list ethernet physical wireless
+             configuration: broadcast=yes driver=iwlwifi driverversion=5.4.0-54-generic firmware=46.6bf1df06.0 ip=192.168.0.8 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+             resources: irq:16 memory:b4618000-b461bfff
+        *-serial:0
+             description: Serial bus controller
+             product: Cannon Lake PCH Serial IO I2C Controller #0
+             vendor: Intel Corporation
+             physical id: 15
+             bus info: pci@0000:00:15.0
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=intel-lpss latency=0
+             resources: irq:16 memory:8f800000-8f800fff
+        *-serial:1
+             description: Serial bus controller
+             product: Cannon Lake PCH Serial IO I2C Controller #1
+             vendor: Intel Corporation
+             physical id: 15.1
+             bus info: pci@0000:00:15.1
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm bus_master cap_list
+             configuration: driver=intel-lpss latency=0
+             resources: irq:17 memory:8f801000-8f801fff
+        *-communication
+             description: Communication controller
+             product: Cannon Lake PCH HECI Controller
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:158 memory:b4629000-b4629fff
+        *-sata
+             description: SATA controller
+             product: Cannon Lake Mobile PCH SATA AHCI Controller
+             vendor: Intel Corporation
+             physical id: 17
+             bus info: pci@0000:00:17.0
+             logical name: scsi4
+             version: 10
+             width: 32 bits
+             clock: 66MHz
+             capabilities: sata msi pm ahci_1.0 bus_master cap_list emulated
+             configuration: driver=ahci latency=0
+             resources: irq:129 memory:b4622000-b4623fff memory:b462d000-b462d0ff ioport:5080(size=8) ioport:5088(size=4) ioport:5060(size=32) memory:b462c000-b462c7ff
+           *-disk
+                description: ATA Disk
+                product: WDC WDS120G2G0A-
+                vendor: Western Digital
+                physical id: 0.0.0
+                bus info: scsi@4:0.0.0
+                logical name: /dev/sda
+                version: 0000
+                serial: 185201A0107C
+                size: 111GiB (120GB)
+                capabilities: partitioned partitioned:dos
+                configuration: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=08134622
+              *-volume
+                   description: Windows NTFS volume
+                   physical id: 1
+                   bus info: scsi@4:0.0.0,1
+                   logical name: /dev/sda1
+                   version: 3.1
+                   serial: f23e6d4d-2151-c448-8cc1-bdd97103b88a
+                   size: 111GiB
+                   capacity: 111GiB
+                   capabilities: primary ntfs initialized
+                   configuration: clustersize=4096 created=2020-09-09 18:46:56 filesystem=ntfs label=New Volume state=clean
+        *-pci:1
+             description: PCI bridge
+             product: Cannon Lake PCH PCI Express Root Port #21
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: f0
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:123 memory:b4500000-b45fffff
+           *-storage
+                description: Non-Volatile memory controller
+                product: BC501 NVMe Solid State Drive 512GB
+                vendor: SK hynix
+                physical id: 0
+                bus info: pci@0000:06:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: storage pm msi msix pciexpress nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0
+                resources: irq:16 memory:b4500000-b4503fff
+        *-pci:2
+             description: PCI bridge
+             product: Cannon Lake PCH PCI Express Root Port #9
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: f0
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:124 memory:b4400000-b44fffff
+           *-storage
+                description: Non-Volatile memory controller
+                product: NVMe SSD Controller SM981/PM981/PM983
+                vendor: Samsung Electronics Co Ltd
+                physical id: 0
+                bus info: pci@0000:07:00.0
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: storage pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0
+                resources: irq:16 memory:b4400000-b4403fff
+        *-pci:3
+             description: PCI bridge
+             product: Cannon Lake PCH PCI Express Root Port #13
+             vendor: Intel Corporation
+             physical id: 1d.4
+             bus info: pci@0000:00:1d.4
+             version: f0
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:125 ioport:3000(size=4096) memory:b4300000-b43fffff
+           *-network
+                description: Ethernet interface
+                product: Killer E2500 Gigabit Ethernet Controller
+                vendor: Qualcomm Atheros
+                physical id: 0
+                bus info: pci@0000:08:00.0
+                logical name: enp8s0
+                version: 10
+                serial: 7c:d3:0a:80:fd:4b
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=alx latency=0 link=no multicast=yes port=twisted pair
+                resources: irq:16 memory:b4300000-b433ffff ioport:3000(size=128)
+        *-isa
+             description: ISA bridge
+             product: HM470 Chipset LPC/eSPI Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 10
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+        *-multimedia
+             description: Audio device
+             product: Cannon Lake PCH cAVS
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=snd_hda_intel latency=32
+             resources: irq:173 memory:b461c000-b461ffff memory:b4200000-b42fffff
+        *-serial:2
+             description: SMBus
+             product: Cannon Lake PCH SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.4
+             bus info: pci@0000:00:1f.4
+             version: 10
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: irq:16 memory:b462a000-b462a0ff ioport:5040(size=32)
+        *-serial:3 UNCLAIMED
+             description: Serial bus controller
+             product: Cannon Lake PCH SPI Controller
+             vendor: Intel Corporation
+             physical id: 1f.5
+             bus info: pci@0000:00:1f.5
+             version: 10
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bus_master
+             configuration: latency=0
+             resources: memory:fe010000-fe010fff
+     *-pnp00:00
+          product: PnP device PNP0c02
+          physical id: 1
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:01
+          product: PnP device PNP0c02
+          physical id: 2
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:02
+          product: PnP device PNP0c02
+          physical id: 3
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:03
+          product: PnP device PNP0c02
+          physical id: 5
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:04
+          product: PnP device INT3f0d
+          physical id: 6
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:05
+          product: PnP device PNP0303
+          physical id: 7
+          capabilities: pnp
+          configuration: driver=i8042 kbd
+     *-pnp00:06
+          product: PnP device PNP0c02
+          physical id: 8
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:07
+          product: PnP device PNP0c02
+          physical id: 9
+          capabilities: pnp
+          configuration: driver=system
+  *-network:0
+       description: Ethernet interface
+       physical id: 1
+       logical name: vethf652b9b
+       serial: 0a:42:49:e3:77:0f
+       size: 10Gbit/s
+       capabilities: ethernet physical
+       configuration: autonegotiation=off broadcast=yes driver=veth driverversion=1.0 duplex=full link=yes multicast=yes port=twisted pair speed=10Gbit/s
+  *-network:1
+       description: Ethernet interface
+       physical id: 2
+       logical name: docker0
+       serial: 02:42:74:64:b2:a4
+       capabilities: ethernet physical
+       configuration: broadcast=yes driver=bridge driverversion=2.3 firmware=N/A ip=172.17.0.1 link=yes multicast=yes
+  *-network:2
+       description: Ethernet interface
+       physical id: 3
+       logical name: veth5e9ab4e
+       serial: 92:4a:89:d5:ab:0d
+       size: 10Gbit/s
+       capabilities: ethernet physical
+       configuration: autonegotiation=off broadcast=yes driver=veth driverversion=1.0 duplex=full link=yes multicast=yes port=twisted pair speed=10Gbit/s

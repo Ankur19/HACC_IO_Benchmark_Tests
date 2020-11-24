@@ -3,7 +3,7 @@ import pandas as pd
 
 columns = ["Bandwidth", "Size", "MaxTime", "ReadWrite", "NumParticles", "NumProcesses"]
 numParticles = [10, 25, 50, 100, 250, 500]
-numProcesses = [1, 2, 3, 4]
+numProcesses = [1, 2, 4, 8]
 folders = ["1","2","3","4","5"]
 
 def processTxt(file):
