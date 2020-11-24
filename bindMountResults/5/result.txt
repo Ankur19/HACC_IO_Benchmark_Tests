@@ -1,0 +1,120 @@
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 1078.63 BW[MB/s] 63165824 Bytes 0.0558484 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 3153.25 BW[MB/s] 63165824 Bytes 0.019104 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 3592.56 BW[MB/s] 126331648 Bytes 0.0335357 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 5836.93 BW[MB/s] 126331648 Bytes 0.0206409 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 5945.96 BW[MB/s] 252663296 Bytes 0.0405247 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9744.62 BW[MB/s] 252663296 Bytes 0.0247273 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 6478.07 BW[MB/s] 505326592 Bytes 0.0743921 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 10314.2 BW[MB/s] 505326592 Bytes 0.0467236 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 2376.34 BW[MB/s] 120165824 Bytes 0.0482249 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 3318.7 BW[MB/s] 120165824 Bytes 0.0345314 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 4265.11 BW[MB/s] 240331648 Bytes 0.0537379 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 6161.36 BW[MB/s] 240331648 Bytes 0.0371993 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 6590.39 BW[MB/s] 480663296 Bytes 0.0695553 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9635.19 BW[MB/s] 480663296 Bytes 0.0475752 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 7299.99 BW[MB/s] 961326592 Bytes 0.125588 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9922.86 BW[MB/s] 961326592 Bytes 0.092392 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 2534.72 BW[MB/s] 215165824 Bytes 0.080955 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 3427.94 BW[MB/s] 215165824 Bytes 0.0598605 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 4547.73 BW[MB/s] 430331648 Bytes 0.0902419 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 6284.09 BW[MB/s] 430331648 Bytes 0.0653071 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 7243.76 BW[MB/s] 860663296 Bytes 0.11331 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9774.57 BW[MB/s] 860663296 Bytes 0.0839722 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 7642.26 BW[MB/s] 1721326592 Bytes 0.214804 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9520.09 BW[MB/s] 1721326592 Bytes 0.172434 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 2741.24 BW[MB/s] 405165824 Bytes 0.140957 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 3474.54 BW[MB/s] 405165824 Bytes 0.111208 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 4824.47 BW[MB/s] 810331648 Bytes 0.160182 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 6355.16 BW[MB/s] 810331648 Bytes 0.121601 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 7426.19 BW[MB/s] 1620663296 Bytes 0.208126 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9511.95 BW[MB/s] 1620663296 Bytes 0.162489 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 3313.71 BW[MB/s] 3241326592 Bytes 0.932842 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 12513.3 BW[MB/s] 3241326592 Bytes 0.247031 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 2916.64 BW[MB/s] 975165824 Bytes 0.318857 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 3540.72 BW[MB/s] 975165824 Bytes 0.262656 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 4759.2 BW[MB/s] 1950331648 Bytes 0.390818 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 6361.49 BW[MB/s] 1950331648 Bytes 0.292381 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 2005.97 BW[MB/s] 3900663296 Bytes 1.85444 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 9388.07 BW[MB/s] 3900663296 Bytes 0.396244 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 1127.43 BW[MB/s] 7801326592 Bytes 6.599 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 1701.57 BW[MB/s] 7801326592 Bytes 4.37239 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 2757.31 BW[MB/s] 1925165824 Bytes 0.66586 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 3436.67 BW[MB/s] 1925165824 Bytes 0.534232 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 1468.68 BW[MB/s] 3850331648 Bytes 2.50018 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 6215.48 BW[MB/s] 3850331648 Bytes 0.590777 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 1057.54 BW[MB/s] 7700663296 Bytes 6.94433 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 2199.18 BW[MB/s] 7700663296 Bytes 3.33939 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
+-------- Aggregate Performance --------
+ WRITE Checkpoint Perf: 255.786 BW[MB/s] 15401326592 Bytes 57.4225 MaxTime[sec] 
+-------- Aggregate Performance --------
+ READ Restart Perf: 1111.67 BW[MB/s] 15401326592 Bytes 13.2124 MaxTime[sec] 
+ CONTENTS VERIFIED... Success 
