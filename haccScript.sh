@@ -12,6 +12,7 @@ oldPwd=$PWD
 
 if [ $version -eq 1 ]
 then
+	export PATH=/app/mpiccInstall/bin:$PATH
 	resultPath=$PWD/localResults
 	mkdir localResults
 else
@@ -31,7 +32,7 @@ make CXX=mpicc LDLIBS="-lstdc++"
 
 arr=( 10 25 50 100 250 500 )
 
-rank=( 1 2 3 4 )
+rank=( 1 2 4 8 )
 
 folders=( 1 2 3 4 5 )
 
